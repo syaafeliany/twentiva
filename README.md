@@ -1,28 +1,94 @@
-# Kapsul Ceria Quiz
+# Twentiva - Kuis Kesehatan Kulit
 
-buatkan aku design web menggunakan react/typscript seperti kahoot atau sistem kuis dengan tiga soal dan jawaban pilihan tanpa ada sistem ranking, gaperlu buat akun, tema fun dan ada animasi jika salah dan jika benar, serta confetti ketika selesai menjawab semua soal,  kalau bisa ketika menjawab soal ada keterangan bener dan salahnya ketika salah jangan langsung beralih ke soal berikutnya dan jangan kasih penjelasan, harus cari jawaban sampai benar dan ketikan benar kasih penjelasannya lalu lanjut deh ke soal berikutnya, lalu kayak yuk bermain, uji pemahamanmu benar atau salah, angkat tangan kalau kamu yakin,  adakan sound track nya kalau bisa baik bener dan salah, kasih satu maskot kapsul dan salep bocil yang lucu nan menggemaskan, btw ini web untuk edukasi pada anak smp jadi sesuaikan aja temanya dengan pallete color pink beriut soal soal nya 
+Aplikasi kuis interaktif untuk edukasi kesehatan kulit bagi anak SMP. Belajar sambil bermain bersama Kalpi dan Salpi!
 
-1. Kurap biasanya benrtbentuk..... (jawabannya lingkaran. penjelasan: karena kurap biasanya muncul sebagai bercak berbentuk lingkaran dan disebabkan oleh jamur)
-2. biang keringat lebih mudah muncul saat.... (jawabannya cuaca panas. penjelasan: biang keringat mudah muncul ketika tubuh panas dan banyak berkeringat)
-3. sebelum memakai obat kulit, langkah pertama adalah... (jawabannya cuci tangan. penjelasannya: mencuci tangan sebelum menggunakan obat kulit membantu menjaga kebersihan dan mencegah kotoran masuk ke area yang sedang di obati)
+## ✨ Fitur
 
-This project was built with [Lovable](https://lovable.dev).
+- 🎮 **3 Soal Interaktif** - Kuis seru tentang kesehatan kulit
+- 🎭 **Maskot Ekspresif** - Kalpi (kapsul) dan Salpi (salep) dengan ekspresi dinamis
+- 🎵 **Sound Effects** - Efek suara untuk jawaban benar, salah, dan clapping
+- 🎊 **Animasi & Confetti** - Animasi menarik saat menjawab dan merayakan
+- 📱 **Responsive Design** - Tampilan optimal di desktop dan mobile
+- 🚀 **No Login Required** - Langsung main tanpa perlu akun
 
-## Build with Lovable
+## 🛠️ Teknologi
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/b85a279e-2237-4df2-9f25-af91c704a7eb).
+- React 19
+- TypeScript
+- TanStack Router & TanStack Start
+- Tailwind CSS 4
+- Vite 8
+- Web Audio API untuk sound effects
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## 🚀 Quick Start
 
-## Development
+### Prerequisites
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+- Node.js 18+ dan npm
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+### Installation
+
+```bash
+git clone https://github.com/syaafeliany/twentiva.git
+cd twentiva
+npm install
+```
+
+### Development
+
+```bash
 npm run dev
 ```
+
+Buka browser di `http://localhost:8080`
+
+### Build
+
+```bash
+npm run build
+```
+
+Build output akan ada di `.vercel/output/` siap untuk deploy ke Vercel.
+
+### Deploy
+
+Deploy langsung ke Vercel:
+
+```bash
+npm run build
+vercel --prebuilt
+```
+
+Atau import repository di [Vercel Dashboard](https://vercel.com/new).
+
+## 📝 Soal Kuis
+
+1. **Kurap biasanya berbentuk…**
+   - Jawaban: Lingkaran
+   - Penjelasan: Kurap muncul sebagai bercak berbentuk lingkaran dan disebabkan oleh jamur
+
+2. **Biang keringat lebih mudah muncul saat…**
+   - Jawaban: Cuaca panas
+   - Penjelasan: Biang keringat mudah muncul ketika tubuh panas dan banyak berkeringat
+
+3. **Sebelum memakai obat kulit, langkah pertama adalah…**
+   - Jawaban: Cuci tangan
+   - Penjelasan: Mencuci tangan membantu menjaga kebersihan dan mencegah kotoran masuk ke area yang diobati
+
+## 🎨 Maskot
+
+- **Kalpi** 💊 - Maskot kapsul lonjong dua warna (ungu & putih)
+- **Salpi** 🧴 - Maskot tube salep berbentuk segitiga
+
+Keduanya punya ekspresi yang berubah saat kamu menjawab:
+- 😊 Senang saat jawaban benar
+- 😢 Sedih saat jawaban salah
+- 😐 Netral saat menunggu jawaban
+
+## 📄 License
+
+Dibuat untuk edukasi kesehatan kulit anak SMP.
+
+---
+
+Dibuat dengan ❤️ untuk pembelajaran yang menyenangkan
